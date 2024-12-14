@@ -8,6 +8,7 @@ app = Flask(__name__)
 @app.route('/oi', methods=['GET'])
 def oi():
     # Retornando a string "oi"
+    print("oi")
     return "oi"
 
 # Executando o servidor se o script for executado diretamente
